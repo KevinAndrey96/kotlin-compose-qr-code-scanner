@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Scans can contain Wi-Fi passwords, so the history never goes to cloud backups. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude
+            domain="database"
+            path="scans.db" />
+        <exclude
+            domain="database"
+            path="scans.db-wal" />
+        <exclude
+            domain="database"
+            path="scans.db-shm" />
+    </cloud-backup>
+</data-extraction-rules>

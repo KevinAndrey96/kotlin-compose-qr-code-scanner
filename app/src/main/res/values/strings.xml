@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lector QR</string>
+
+    <string name="nav_scan">Escanear</string>
+    <string name="nav_create">Crear</string>
+    <string name="nav_history">Historial</string>
+    <string name="back">Volver</string>
+
+    <string name="scanner_hint">Apunta la cámara a un código QR</string>
+    <string name="scanner_torch_on">Encender linterna</string>
+    <string name="scanner_torch_off">Apagar linterna</string>
+    <string name="scanner_pick_image">Leer desde una imagen</string>
+    <string name="scanner_permission_title">La cámara está desactivada</string>
+    <string name="scanner_permission_body">Permite el acceso a la cámara para leer códigos en vivo. También puedes leer un código desde una imagen de tu galería.</string>
+    <string name="scanner_permission_grant">Permitir cámara</string>
+    <string name="scanner_permission_settings">Abrir ajustes</string>
+    <string name="scanner_no_code_in_image">No encontramos un código QR en esa imagen</string>
+    <string name="scanner_image_unreadable">No pudimos abrir esa imagen</string>
+
+    <string name="kind_url">Enlace</string>
+    <string name="kind_wifi">Red Wi-Fi</string>
+    <string name="kind_contact">Contacto</string>
+    <string name="kind_email">Correo</string>
+    <string name="kind_phone">Teléfono</string>
+    <string name="kind_sms">SMS</string>
+    <string name="kind_geo">Ubicación</string>
+    <string name="kind_text">Texto</string>
+
+    <string name="field_url">Enlace</string>
+    <string name="field_network">Red</string>
+    <string name="field_security">Seguridad</string>
+    <string name="field_password">Contraseña</string>
+    <string name="field_hidden">Red oculta</string>
+    <string name="field_name">Nombre</string>
+    <string name="field_organization">Empresa</string>
+    <string name="field_phone">Teléfono</string>
+    <string name="field_email">Correo</string>
+    <string name="field_website">Sitio web</string>
+    <string name="field_address">Dirección</string>
+    <string name="field_to">Para</string>
+    <string name="field_subject">Asunto</string>
+    <string name="field_message">Mensaje</string>
+    <string name="field_number">Número</string>
+    <string name="field_latitude">Latitud</string>
+    <string name="field_longitude">Longitud</string>
+    <string name="field_place">Lugar</string>
+    <string name="yes">Sí</string>
+
+    <string name="security_wpa">WPA/WPA2/WPA3</string>
+    <string name="security_wep">WEP</string>
+    <string name="security_open">Sin contraseña</string>
+
+    <string name="action_open_link">Abrir enlace</string>
+    <string name="action_connect_wifi">Conectarse</string>
+    <string name="action_copy_password">Copiar contraseña</string>
+    <string name="action_save_contact">Guardar contacto</string>
+    <string name="action_send_email">Escribir correo</string>
+    <string name="action_call">Llamar</string>
+    <string name="action_send_sms">Enviar SMS</string>
+    <string name="action_open_map">Abrir en mapas</string>
+    <string name="action_search_web">Buscar en la web</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_favorite">Marcar como favorito</string>
+    <string name="action_unfavorite">Quitar de favoritos</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="detail_raw_content">Contenido original</string>
+    <string name="detail_scanned_at">Escaneado el %1$s</string>
+    <string name="detail_delete_title">¿Eliminar este código?</string>
+    <string name="detail_delete_body">Se quitará del historial. Puedes volver a escanearlo cuando quieras.</string>
+    <string name="detail_not_found">Este código ya no está en el historial</string>
+    <string name="copied">Copiado</string>
+    <string name="password_copied">Contraseña copiada. Pégala al unirte a la red.</string>
+    <string name="no_app_for_action">No hay una aplicación instalada para esta acción</string>
+
+    <string name="history_title">Historial</string>
+    <string name="history_search">Buscar en el historial</string>
+    <string name="history_clear">Borrar historial</string>
+    <string name="history_clear_search">Borrar búsqueda</string>
+    <string name="history_clear_title">¿Borrar el historial?</string>
+    <string name="history_clear_body">Se eliminarán todos los códigos excepto tus favoritos.</string>
+    <string name="history_clear_confirm">Borrar</string>
+    <string name="history_empty_title">Aún no has escaneado códigos</string>
+    <string name="history_empty_body">Los códigos que leas con la cámara o desde una imagen aparecerán aquí.</string>
+    <string name="history_no_results">Ningún código coincide con la búsqueda</string>
+    <string name="history_item_supporting">%1$s · %2$s</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_favorites">Favoritos</string>
+    <string name="filter_links">Enlaces</string>
+    <string name="filter_wifi">Wi-Fi</string>
+    <string name="filter_contacts">Contactos</string>
+    <string name="filter_other">Otros</string>
+
+    <string name="generator_title">Crear código QR</string>
+    <string name="generator_type_text">Texto</string>
+    <string name="generator_type_link">Enlace</string>
+    <string name="generator_type_wifi">Wi-Fi</string>
+    <string name="generator_type_contact">Contacto</string>
+    <string name="generator_text_label">Texto</string>
+    <string name="generator_link_label">Dirección web</string>
+    <string name="generator_ssid_label">Nombre de la red</string>
+    <string name="generator_password_label">Contraseña</string>
+    <string name="generator_hidden_label">Red oculta</string>
+    <string name="generator_security_wpa">WPA</string>
+    <string name="generator_security_wep">WEP</string>
+    <string name="generator_security_open">Abierta</string>
+    <string name="generator_show_password">Mostrar contraseña</string>
+    <string name="generator_hide_password">Ocultar contraseña</string>
+    <string name="generator_name_label">Nombre completo</string>
+    <string name="generator_phone_label">Teléfono (opcional)</string>
+    <string name="generator_email_label">Correo (opcional)</string>
+    <string name="generator_organization_label">Empresa (opcional)</string>
+    <string name="generator_preview_description">Código QR generado</string>
+    <string name="generator_placeholder">Completa los datos para ver tu código QR</string>
+    <string name="generator_share_image">Compartir</string>
+    <string name="generator_copy_text">Copiar</string>
+    <string name="generator_share_title">Compartir código QR</string>
+
+    <string name="problem_empty_text">Escribe el texto que quieres guardar en el código</string>
+    <string name="problem_invalid_url">Escribe una dirección web válida, por ejemplo kevin.dev</string>
+    <string name="problem_empty_ssid">Escribe el nombre de la red</string>
+    <string name="problem_invalid_wpa_password">La contraseña WPA debe tener entre 8 y 63 caracteres</string>
+    <string name="problem_empty_password">Escribe la contraseña de la red</string>
+    <string name="problem_empty_name">Escribe el nombre del contacto</string>
+    <string name="problem_invalid_phone">El teléfono debe tener al menos 3 dígitos</string>
+    <string name="problem_invalid_email">Escribe un correo válido</string>
+    <string name="problem_too_long">El contenido es demasiado largo para un código fácil de leer</string>
+</resources>
